@@ -1,4 +1,4 @@
-// (Variable Assignments.)........................01
+// 01. (Variable) => (Data Type) => (Operators) => (Control Flow if, else if, else, swith) in JavaScript.
 
 // 1. Declare variables using let, var, and const to store a name, age, and favorite color. 
 // var fulltName = "Sameer Ali";
@@ -198,6 +198,26 @@
 // let b = 4; 
 // console.log(a / b);
 // output => 4 
+
+// extra work me
+// High School Examination-2021
+// let hindi = 69;
+// let english = 72;
+// let math = 53;
+// let scince = 57;
+// let social_scince = 67;
+// let drawing = 69;
+// let hightotal = hindi + english + math + scince + social_scince + drawing;
+// console.log(hightotal/6)
+ 
+// Intermediate Examination-2023
+// let generalHindi = 94;
+// let english = 67;
+// let physics = 72;
+// let chemistry = 51;
+// let biology = 51;
+// let interTotal = generalHindi + english + physics + chemistry + biology;
+// console.log(interTotal/5)
 
 // 5. Assign `a = 13` and `b = 4`. Log the result of `a % b` to the console. 
 // let a = 13; 
@@ -406,11 +426,143 @@
 // let a = 5;
 // console.log(~ a); // output -6
 
+// RIGHT SHIFT
 // let a = 5;
 // console.log(a<<1); // output 10
 
+// LEFT SHIFT
 // let a = 5;
 // console.log(a>>1); // output 2
 
 // let a = 5;
 // console.log(a>>>1); // output 2
+
+// const number = "abc"/3; 
+// console.log(typeof(number))
+
+// let num=8/0;
+// console.log(num);
+// console.log(typeof(num));
+
+// console.log(3 != 2); // true
+
+// javascript type conversion
+// 1. implicit conevrsion=> type automatically 
+// 1.impicit conversion to string
+
+// ex2: impilicit conversion to number
+
+// const val= "4"-"2";  //2
+// console.log("impilicit conversion to number",val)
+// console.log(typeof(val))
+
+// 1. check number positive.
+// let number = Number(prompt("Enter A Number"))
+// if (number > 0){
+//     console.log(`${number} is positive`);
+// }
+// console.log("This is Next Line");
+
+// 2. check number positive negetive.
+// let number = Number(prompt("Enter A Number"))
+// if (number > 0){
+//     console.log(`${number} is positive`);
+// }
+// else{
+//     console.log(`The given number ${number} not positive number`);
+// }
+// console.log("This is Next Line");
+
+// 3. check number positive negetive zero.
+// let number = Number(prompt("Enter A Number"))
+// if (number > 0){ 
+//     console.log(`${number} is positive`);
+// }
+// else if(number<0){
+//     console.log("The number given negative");
+// }
+
+// else{
+//     console.log("The given number Zero");
+// }
+
+// console.log("This is Next Line");
+
+// var num = Number(prompt("Enter A Number"))
+// if (num >= 0){
+     
+//     if(num == 0){
+//           console.log("The number is zero");
+//     }else {
+//     console.log("The number is positive");
+    
+// }
+// }else{
+//     console.log("the number is negative")
+// }
+
+// console.log("This is Next Line");
+
+// check the is either odd 0r even
+//  let num = Number(prompt("Enter A Number even and odd"))
+//  if(num % 2 == 0 ){
+//     console.log("Even Number");
+//  }
+//  else{
+//       console.log("odd Number");
+//  }
+
+// switch statement
+// let a = Number(prompt("Enter The Number: "))
+// switch (a){
+//     case 1:
+//         console.log("One");
+//         break;
+//     case 2:
+//         console.log("Two");
+//         break;
+//     case 3:
+//         console.log("Three");
+//         break;
+//         default:
+//             console.log("Not a Valid Number");
+// }
+
+
+var num1 = Number(prompt("Enter first number: "))
+
+var opretor =  prompt("Enter the (+or-%or*) ")
+
+var num2 = Number(prompt("Enter second number: "))
+
+switch (opretor){
+    case "+":
+    //     // console.log(`${num1} + ${num2} = num1+num2`);
+        let add = num1 + num2;
+        console.log("addition The Value is: ", add);
+        break;
+
+    case "-":
+        let sub = num1 - num2;
+        console.log("subtraction The Value is: ", sub);
+        break;
+
+    case "%":
+        let modulus = num1 % num2;
+        console.log("subtraction The Value is: ", modulus);
+        break;
+
+    case "/":
+        let division = num1 / num2;
+        console.log("division The Value is: ", division);
+        break;
+
+
+   case "*":
+        let mul = num1 * num2;
+        console.log("multiplicatin The Value is: ", mul);
+        break;
+
+        default:
+            console.log("note valid number");
+}
