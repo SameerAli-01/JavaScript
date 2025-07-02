@@ -1,9 +1,12 @@
 // 01. (Variable) => (Data Type) => (Operators) => (Control Flow if, else if, else, swith) in JavaScript.
 
+// const { cloneElement } = require("react");
+
 // 1. Declare variables using let, var, and const to store a name, age, and favorite color. 
 // var fulltName = "Sameer Ali";
 // let Age = 19;
 // const Color = "green";
+
 // console.log("Info.", "Name:- ", fullName, "Age:- ", Age, "Color:- ", Color);
 
 // 2. Create variables inside and outside a block ({}) using let and const.
@@ -56,8 +59,7 @@
 // console.log("name is: ", string);
 
 // 8. Try creating variables with names that start with numbers or contain special characters. Discuss why some names are invalid.
-// let 01name = "Sahil";
-// console.log(01name); invalid
+//  
 
 // 9. Declare variables with let and const in different scopes (e.g., global scope, block scope). Discuss their visibility and scope.
 // let globalLet = "global let variable.";
@@ -529,40 +531,51 @@
 // }
 
 
-var num1 = Number(prompt("Enter first number: "))
+// var num1 = Number(prompt("Enter first number: "))
 
-var opretor =  prompt("Enter the (+or-%or*) ")
+// var opretor =  prompt("Enter the (+or-%or*) ")
 
-var num2 = Number(prompt("Enter second number: "))
+// var num2 = Number(prompt("Enter second number: "))
 
-switch (opretor){
-    case "+":
-    //     // console.log(`${num1} + ${num2} = num1+num2`);
-        let add = num1 + num2;
-        console.log("addition The Value is: ", add);
-        break;
+// switch (opretor){
+//     case "+":
+//     //     // console.log(`${num1} + ${num2} = num1+num2`);
+//         let add = num1 + num2;
+//         console.log("addition The Value is: ", add);
+//         break;
 
-    case "-":
-        let sub = num1 - num2;
-        console.log("subtraction The Value is: ", sub);
-        break;
+//     case "-":
+//         let sub = num1 - num2;
+//         console.log("subtraction The Value is: ", sub);
+//         break;
 
-    case "%":
-        let modulus = num1 % num2;
-        console.log("subtraction The Value is: ", modulus);
-        break;
+//     case "%":
+//         let modulus = num1 % num2;
+//         console.log("subtraction The Value is: ", modulus);
+//         break;
 
-    case "/":
-        let division = num1 / num2;
-        console.log("division The Value is: ", division);
-        break;
+//     case "/":
+//         let division = num1 / num2;
+//         console.log("division The Value is: ", division);
+//         break;
 
 
-   case "*":
-        let mul = num1 * num2;
-        console.log("multiplicatin The Value is: ", mul);
-        break;
+//    case "*":
+//         let mul = num1 * num2;
+//         console.log("multiplicatin The Value is: ", mul);
+//         break;
 
-        default:
-            console.log("note valid number");
-}
+//         default:
+//             console.log("note valid number");
+// }
+
+// Array
+// let students = ["Anil", "Sameer", "Arjun", "Mujeeb", "Suaib"];
+// console.log(students);
+// students.push("Ali")
+
+// let months = ["january", "july", "march", "august"];
+// months.shift()
+// months.shift()
+// months.unshift("june")
+// months.unshift("july")
