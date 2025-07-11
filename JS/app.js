@@ -569,13 +569,5 @@
 //             console.log("note valid number");
 // }
 
-// Array
-// let students = ["Anil", "Sameer", "Arjun", "Mujeeb", "Suaib"];
-// console.log(students);
-// students.push("Ali")
 
-// let months = ["january", "july", "march", "august"];
-// months.shift()
-// months.shift()
-// months.unshift("june")
-// months.unshift("july")
+

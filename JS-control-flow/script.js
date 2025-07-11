@@ -1,9 +1,10 @@
 // control flow assignment
+
 // 1. Write code that checks if the variable `num` is greater than 10. If it is, print "Greater than 10". 
 // let num = 15;  // You can change this value to test 
 
 let num = 10;
-if(num >= 10){
+if(num > 10){
     console.log("Greater than 10");
 }
 
@@ -25,15 +26,23 @@ else{
 
 let score = 90;
 if(score >= 90){
+    console.log("Excellent");
+}else if(score>70 && score <89){
     console.log("good");
 }else{
     console.log("Needs Improvement");
 }
 
 // // 4. Write code that uses a `switch` statement to print the name of the day based on the variable 
-// // `day`. Use the following values: - 1 for "Monday" - 2 for "Tuesday" - 3 for "Wednesday" 
-// // - 4 for "Thursday" - 5 for "Friday" - 6 for "Saturday" - 7 for "Sunday" 
-// // let day = 4;  // You can change this value to test
+// `day`. Use the following values: 
+// - 1 for "Monday" 
+// - 2 for "Tuesday"
+// - 3 for "Wednesday" 
+// - 4 for "Thursday" 
+// - 5 for "Friday" 
+// - 6 for "Saturday" 
+// - 7 for "Sunday" 
+// let day = 4;  // You can change this value to test
 
 let day = 1;
 switch(day){
@@ -68,13 +77,13 @@ switch(day){
             console.log("You enter wrong day");
 }
 
-// 5. Write code that checks if the variable `num` is between 10 and 20 (inclusive). Print "In range" 
+// 5. Write code that checks if the variable `num` is between 10 and 20 (In range). Print "Out of range" 
 // if it is, otherwise print "Out of range". 
 // let num = 15;  // You can change this value to test 
 
-let num2 = 20
-if(num2 <=  20){
-    console.log("inclusive");
+let num2 = 20;
+if(num2 >= 10 && num2 <= 20){
+    console.log("In range");
 }
 else{
     console.log("Out of range");
@@ -85,10 +94,14 @@ else{
 // let num = 120;  // You can change this value to test
 
 let num3 = 80;
-if(num3 >= 100){
-    console.log("Large Positive")
-} 
-else{
+
+if(num3 > 0){
+    if(num3 > 100){
+        console.log("Large Positive")
+    } else{
+        console.log("mediam")
+    }
+} else{
     console.log("Small Positive")
 }
 
@@ -98,7 +111,7 @@ else{
 // let num = 7;  // You can change this value to test
 
 let num4 = 10;
- if(num4 % 2 == 0 ){
+ if(num4 % 2 === 0 ){
     console.log("Even Number");
  }
  else{
@@ -106,7 +119,11 @@ let num4 = 10;
  }
 
 // 8. Write code that uses a `switch` statement to print the type of vehicle based on the variable 
-// `vehicleType`. Use the following values: - "car" for "Car" - "bike" for "Bike" - "truck" for "Truck" - "other" for "Other" 
+// `vehicleType`. Use the following values: 
+// - "car" for "Car" 
+// - "bike" for "Bike" 
+// - "truck" for "Truck" 
+// - "other" for "Other" 
 // Make sure to include a `default` case for any other value. 
 // let vehicleType = "plane";  // You can change this value to test 
 
@@ -124,19 +141,36 @@ switch(vehicleType){
         console.log("other");
 }  
 
-// 9.Write code that classifies the age of a person based on the variable `age` and prints: -
-// "Child" for ages less than 13 - "Teenager" for ages between 13 and 19 - "Adult" for ages 20 and above 
+// 9.Write code that classifies the age of a person based on the variable `age` and prints: 
+// - "Child" for ages less than 13 
+// - "Teenager" for ages between 13 and 19 
+// - "Adult" for ages 20 and above 
 // let age = 16;  // You can change this value to test 
 
 let age = 20;    
-if(age <=13 ){
+
+if(age < 13 ){
+    console.log("Child");
+}else if(age >= 13 && age <= 19){
     console.log("Teenager");
 }else{
     console.log("Adult");
 }
 
 // 10.Write code that uses a `switch` statement to print a message based on the variable `month`. 
-// Use the following values: - 1 for "January" - 2 for "February" - 3 for "March" - 4 for "April" - 5 for "May" - 6 for "June" - 7 for "July" - 8 for "August" - 9 for "September" - 10 for "October" - 11 for "November" - 12 for "December" 
+// Use the following values: 
+// - 1 for "January" 
+// - 2 for "February" 
+// - 3 for "March" 
+// - 4 for "April" 
+// - 5 for "May" 
+// - 6 for "June" 
+// - 7 for "July" 
+// - 8 for "August" 
+// - 9 for "September" 
+// - 10 for "October" 
+// - 11 for "November" 
+// - 12 for "December" 
 // let month = 7;  // You can change this value to test
 
 let month = 10;
@@ -189,5 +223,5 @@ switch(month){
         console.log("December");
         break;
         default:
-            console.log("You enter wrong day try again");
+            console.log("You enter wrong month try again");
 }
