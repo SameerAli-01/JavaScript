@@ -43,6 +43,29 @@
 //     }
 // }
 
+// let num = Number(prompt("Enter the number: "));
+// let sum = 0;
+
+// for(let i = 1; i <= num; i++){
+//     sum  = sum + i;
+    
+// }
+// console.log(sum);
+
+// for (let i = 1; i <= 100; i++){
+//     if(i == 50){
+//         continue;
+//     }
+//      console.log(i);
+// }
+
+// for (let i = 1; i <= 100; i++){
+//     if(i == 50){
+//         break;
+//     }
+//      console.log(i);
+// }
+
 // while loop
 // let gameNum = 25;
 // let userNum = prompt("Guess the game number: ");
@@ -144,10 +167,104 @@
 // console.log(foodItams);
 // console.log(foodItams.toString);
 
-let foodItams1 = ["Mango", "Apple", "Orange", "Bannana"];
-let name = ["Sameer", "Ankit", "Rahul", "Puneet"];
-let foodItamsname = foodItams1.concat(name);
-console.log(foodItamsname);
+// let foodItams1 = ["Mango", "Apple", "Orange", "Bannana"];
+// let name = ["Sameer", "Ankit", "Rahul", "Puneet"];
+// let foodItamsname = foodItams1.concat(name);
+// console.log(foodItamsname);
+
+// let companies = ["Bloombreg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+// companies.shift()
+// console.log(companies);
+// companies.splice(2, 1, "ola")
+// companies.push("Amazon")
+// console.log(companies);
+
+// Function in JavaScript
+// Function definition > functionis is a block of code > function call
+
+// function firstFunction(){
+//     console.log("Hello I am developer");
+// }
+// firstFunction();
+// firstFunction();
+// firstFunction();
+// firstFunction();
+
+// function sum(a,b){
+//     console.log(a, b);
+// }
+// sum(103 + 122);
+
+// Arrow Function JavaScript
+// const arrowFunction = (a, b) => {
+//     console.log(a,b);
+// };
+// arrowFunction(12 + 2);
+
+// function countVowels(str){
+//     let count = 0;
+//     for(const char of str){
+//          if(char === "a" ||
+//             char === "e" ||
+//             char === "i" || 
+//             char === "o" ||
+//             char === "u")
+//             {
+//             count++;
+//         }
+//     }
+//     console.log(count);
+// }
+// countVowels("Sameer Ali")
+
+// const countVowels = (str) =>{
+//  let count = 0;
+//     for(const char of str){
+//          if(char === "a" ||
+//             char === "e" ||
+//             char === "i" || 
+//             char === "o" ||
+//             char === "u")
+//             {
+//             count++;
+//         }
+//     }
+//     console.log(count);
+// }
+
+// countVowels("Sameer Ali")
+
+// callback function
+// let arr = [1, 3, 4, 1, 2];
+
+// arr.forEach(function myfunction(value){
+//     console.log(value);
+// })
+
+// let array = ["Ali", "Husain", "Hasan", "Umar", "Bilal"];
+// array.forEach((val) =>{
+//     console.log(val);
+// });
+
+// Array methods
+// Map
+
+// filter
+// let arr = [12, 13, 12, 17, 15];
+
+// let evenArr = arr.filter((val) => {
+//     return val % 2 === 0;
+// });
+// console.log(evenArr);
+
+// Reuce
+// let arr = [1, 1, 5];
+// const output = arr.reduce((res, val) => {
+//     return res + val;
+// })
+// console.log(output); // 7
+
+
 
 
 
