@@ -264,14 +264,19 @@
 // })
 // console.log(output); // 7
 
+// DOM document Object modale
+// let div = document.querySelector("div");
+// console.log(div);
+
+// let id = div.getAttribute("id");
+// console.log(id);
 
 
+// let head = document.querySelector("h1");
+// head.remove()
 
-
-
-
-
-
-
-
-
+// let newBut = document.createElement("button");
+// newBut.innerText = "Click me!";
+// newBut.style.backgroundColor = "red";
+// newBut.style.color = "white";
+// document.querySelector("body").prepend(newBut);
