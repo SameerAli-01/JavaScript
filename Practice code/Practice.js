@@ -280,3 +280,51 @@
 // newBut.style.backgroundColor = "red";
 // newBut.style.color = "white";
 // document.querySelector("body").prepend(newBut);
+
+
+// practice
+// let row = 5;
+// let col = 4;
+
+// for(let i = 1; i <= row; i++){
+//     let str = " ";
+//     for(let j = 1; j <= col; j++)
+//     {
+//         str = str + "*  ";
+//     }
+//     console.log(str);
+// }
+
+// let rowouter = 5;
+// let coliner = 4;
+
+// for(let i = 1; i <= rowouter; i++){
+//     let str = " ";
+//     for(let j = 1; j <= i; j++)
+//     {
+//         str = str + "*  ";
+//     }
+//     console.log(str);
+// }
+
+// let m = 4;
+
+// for(i = 1; i <= m; i++){
+//     let str = " ";
+//     for(j = 1; j <= m - i; j++){
+//          str += " ";
+//     }
+//         for(let k = 1; k <= i; k++){
+//         str += "*";
+//     }
+//     console.log(str);
+// } 
+
+let fact = 6;
+// let n = fact;
+for(i = 1; i <= 5; i++){
+    // fact = fact * i
+    fact *= i
+}
+console.log(`fact torial number is: ${fact}`); 
+

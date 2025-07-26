@@ -5,19 +5,20 @@
 
 // 2.Print numbers from 1 to 10 using a  while  loop. 
 // let i = 1;
-// let num = 10;
-// while(let i <= num){
-//     console.log(i);
-//     i++;
+
+// while(i <= 10) {
+//    console.log(i);
+//    i++;
+    
 // }
 
 // 3.Print numbers from 1 to 10 using a  do...while  loop. 
-// let i = 1;
-// let num = 10;
-// do{
-//     console.log(i);
-//     i++;
-// }while(i <= num)
+let i = 1;
+let num = 10;
+do{
+    console.log(i);
+    i++;
+}while(i <= num)
 
 // 4.Print numbers from 10 to 1 in reverse order using a loop. 
 // for(let i = 10; i >= 1; i--){
@@ -63,17 +64,14 @@
 
 // 10.Print the multiplication table of 5 up to 10.
 // let num = 50;
-// for(let i = 1; i <= num; i++){
-//     if(i % 5 === 0)
-//     console.log(i);
+// for(let i = 1; i <= 10; i++){
+//     console.log(`5 * ${i} = ${5 * i}`);
 // }
 
 // 11.Print the multiplication table of any number (e.g., 7) up to 10.
 // let num = 70;
-// for(let i = 1; i <= num; i++){
-//     if(i % 7 === 0)
-//     console.log(i);
-// }
+// let num = Number(prompt("Enter a number table: "));
+// for(let i = 1; i <= 10; i++) console.log(`${num} * ${i} = ${num * i}`);
 
 // 12.Calculate the sum of numbers from 1 to 50 using a loop.
 // let sum = 0;
@@ -122,7 +120,10 @@
 // 22.Calculate and print the sum of digits of a given number (e.g., 123 → 6).
 
 
-// 23.Reverse a given number (e.g., 1234 → 4321). 
+// 23.Reverse a given number (e.g., 1234 → 4321).
+// for(let i = 4321; i >= 1234; i--){
+//     console.log(i);
+// } 
 
 // 24.Count the number of digits in a given number. 
 
@@ -170,3 +171,4 @@
 //   product *= i; 
 // }
 // console.log(product);
+
