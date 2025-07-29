@@ -1,7 +1,7 @@
 // 1.Print numbers from 1 to 10 using a  for  loop.
 // let num = 10;
 
-// for(i = 1; i <= num; i++){
+// for(let i = 1; i <= num; i++){
 //     console.log(i);
 // }
 
@@ -21,7 +21,7 @@
 // do{
 //     console.log(i);
 //     i++;
-// }while(i <= 10)
+// }while(i <= 10);
 
 // 4.Print numbers from 10 to 1 in reverse order using a loop.
 // let num = 1;
@@ -52,7 +52,7 @@
 // let num = 50;
 
 // for(i = 1; i <= num; i++){
-//     if(i % 3 === 0){
+//     if(i % 3 === 0 && i % 5 === 0){
 //         console.log(i);
 //     }
 // }
@@ -76,14 +76,45 @@
 // }
 
 // 10.Print the multiplication table of 5 up to 10.
+// let num = 50;
+// for(i = 5; i <= num; i++){
+//     if(i % 5 === 0){
+//         console.log(i);
+//     }
+// }
 
 // 11.Print the multiplication table of any number (e.g., 7) up to 10.
+// let num = 70;
+// for(i = 7; i <= num; i++){
+//     if(i % 7 === 0){
+//         console.log(i);
+//     }
+// }
 
 // 12.Calculate the sum of numbers from 1 to 50 using a loop.
+// let sum = 0;
+// for(let i = 1; i <= 50; i++){
+//     sum = sum + i;
+// }
+// console.log(sum);
 
 // 13.Calculate the sum of even numbers from 1 to 100.
+// let sum = 0;
+// for(i = 1; i <= 100; i++){
+//     if(i % 2 === 0){
+//      sum = sum + i;
+//     }
+// }
+// console.log(sum);
 
 // 14.Calculate the sum of odd numbers from 1 to 100.
+// let sum = 0;
+// for(i = 1; i <= 100; i++){
+//     if(i % 2 !== 0){
+//         sum = sum + i
+//     }
+// }
+// console.log(sum);
 
 // 15.Print the square of numbers from 1 to 10.
 
@@ -171,22 +202,30 @@
 //     s=s+"*";
 //   }
 //   console.log(s);
-  
+
 // }
 
 // 2. Centered Inverted Pyramid
 // *****
-// ***
-// *
+//  ***
+//   *
+// let n=3;
 
-// for (let i = 1; i <=6; i++) {
-//     let s = "";
-//   for (let j = 1; j >= i-2; j--) {
-//     s=s+"*";
-//   }
-//   console.log(s); 
-  
-// }
+let rows = 3;
+
+for (let i = 0; i < rows; i++) {
+  let line = '';
+
+  for (let space = 0; space < i; space++) {
+    line += ' ';
+  }
+
+  for (let star = 0; star < 2 * (rows - i) - 1; star++) {
+    line += '*';
+  }
+
+  console.log(line);
+}
 
 // 3. Continuous Number Triangle
 // 1
@@ -195,13 +234,14 @@
 // 7 8 9 10
 
 // let num = 1;
+
 // for (let i = 1; i < 5; i++) {
-//   let s = "";
+//   let str = "";
 //   for (let j = 1; j <= i; j++) {
-//     s = s + num;
+//     str = str + num;
 //     num = num + 1;
 //   }
-//   console.log(s);
+//   console.log(str);
 // }
 
 // 4. Right-Aligned Triangle
@@ -209,35 +249,66 @@
 // **
 // ***
 // ****
-// let row = 4;
-// let col = 4;
 
-// for(i = 1; i <= row; i++){
+// for(i = 1; i <= 4; i++){
 //     let str = " ";
 //     for(let j = 1; j <= i; j++)
 //         {
-//         str = str + "* ";
+//         str = str + " *";
 //     }
 //     console.log(str);
 // }
 
 // 5. Reverse Number Triangle
-// 1 2 3 4 5
-// 1 2 3 4
-// 1 2 3
-// 1 2
-// 1
+// let rows = 5;
 
-// 6. Hollow Rectangle
-// * * * * *
-// *
-// *
-// *
-// *
-// * * * * *
+// for (let i = rows; i >= 1; i--) {
+//   let line = "";
+//   for (let j = 1; j <= i; j++) {
+//     line += j + " ";
+//   }
+//   console.log(line.trim());
+// }
+
+// 6. Hollow Rectangle 
+// * * * * * 
+// *       * 
+// *       *     
+// * * * * * 
+
+// let rows = 4;
+// let cols = 5;
+
+// for (let i = 0; i < rows; i++) {
+//   let line = '';
+//   for (let j = 0; j < cols; j++) {
+//     if (i === 0 || i === rows - 1 || j === 0 || j === cols - 1) {
+//       line += '* ';
+//     } else {
+//       line += '  ';
+//     }
+//   }
+//   console.log(line);
+// }
+
 
 // 7. Full Pyramid
-// *
-// ***
-// *****
+//    *
+//   ***
+//  *****
 // *******
+
+// let rows = 4; 
+
+// for (let i = 1; i <= rows; i++) {
+//   let star = "";
+//   for (let j = 1; j <= rows - i; j++) {
+//     star += " ";
+//   }
+//   for (let k = 1; k <= 2 * i - 1; k++) {
+//     star += "*";
+//   }
+  
+//   console.log( star);
+// }
+

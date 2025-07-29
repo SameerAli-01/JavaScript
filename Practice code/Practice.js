@@ -320,11 +320,102 @@
 //     console.log(str);
 // } 
 
-let fact = 6;
-// let n = fact;
-for(i = 1; i <= 5; i++){
-    // fact = fact * i
-    fact *= i
-}
-console.log(`fact torial number is: ${fact}`); 
+// let fact = 6;
+// // let n = fact;
+// for(i = 1; i <= 5; i++){
+//     // fact = fact * i
+//     fact *= i
+// }
+// console.log(`fact torial number is: ${fact}`); 
 
+// let num = -12;
+// if(num === 0){
+//     console.log("num is zero");
+// }else if(num > 0){
+//     console.log("num is positive");
+// }else{
+//     console.log("num is negetive");
+// }
+
+// let day = "Friday";
+
+// switch (day){
+//     case "Sunday": console.log("Fun day go to movie");
+//     break;
+//     case "Monday": console.log("Rest day");
+//     break;
+//     case "Friday": console.log("Study");
+//     break;
+//     default: console.log("Note match day");
+
+// }
+
+// let areaofShapes = "circle";
+// let a = 5;
+// let b = 10;
+// let result;
+
+// switch (areaofShapes){
+//     case "square":
+//     result = a * a;
+//     console.log(result);
+//     break;
+
+//     case "rectangle": 
+//     result= a * b;
+//     console.log(result);
+//     break;
+
+//     case "circle": 
+//     let r = 2;
+//     result = 3.14 * (r * r);
+//     console.log(result);
+//     break;
+
+//     default: console.log("No shapes match");
+
+// }
+
+// let num = 1;
+// while(num <= 10){
+//     console.log(`5 * ${num} = ${num*5}`);
+//     num++;
+// }
+
+// Infinity loop only use ;;
+// for(;;){
+
+// }
+// let sum = 0;
+
+// for(let num = 1; num <= 10; num++){
+//     sum = sum + num;
+// } 
+// console.log(sum);
+
+// let year = 2024;
+// if((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0){
+//     console.log("it's a leap year");
+// }else{
+//     console.log("it's a note leap year");
+// }
+
+// for(i = 1; i <= 5; i++){
+//    let str = " "
+//    for(j = 1; j <= i; j++){
+//       str = str + " *"
+//    }
+//    console.log(str);
+// }
+
+// function sum(a,b){
+//    return a + b;
+// }
+// console.log(sum(12,12));
+// console.log(sum(12,6));
+
+// function sum(a){
+//    var a = 10, b = 5;
+//    console.log(a + b);
+// }
+// sum()
