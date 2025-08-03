@@ -419,3 +419,140 @@
 //    console.log(a + b);
 // }
 // sum()
+
+// function sum(a, b){
+//     console.log(a + b)
+// }
+// sum(6, 10)
+// sum(4, 10)
+
+// var result = function sum(a, b){
+//     console.log(a + b);
+// };
+// result(2, 1)
+
+// var result = function sum(a, b){
+//     return a + b;
+// };
+// console.log(result(1, 9));
+
+// var result = (function (a, b){
+//     console.log(a + b);
+// })(1, 6);
+
+// var
+// let
+// const keywords.
+
+// var
+// var Name = " Sameer";
+//    Name = "Sameer Ali";
+//    console.log(Name);
+
+// let
+// let Name = " Sameer";
+//    Name = "Sameer Ali";
+//    console.log(Name);
+
+// const
+// const Name = " Sameer";
+//    Name = "Sameer Ali";
+//    console.log(Name);
+
+// var name = "sameer";
+// if(true){
+//     var name = "Ali"
+//     console.log(name);
+// }
+// name = "Ali"
+//     console.log(name);
+
+// let name = "sameer";
+// if(true){
+//     let name = "Ali"
+//     console.log(name);
+// }
+// name = "Ali"
+//     console.log(name);
+
+// const name = "sameer";
+// if(true){
+//     const name = "Ali"
+//     console.log(name);
+// }
+// name = "Ali"
+//     console.log(name);
+
+// if(true){
+//     let fullName = "Sameer Ali"
+//     console.log(fullName);
+// }
+//     console.log(fullName);
+
+// if(true){
+//     var fullName = "Sameer Ali"
+//     console.log(fullName);
+// }
+//     console.log(fullName);
+
+// default peramiter
+// function sum(a, b = 32){
+//     return a + b;
+// }
+// console.log(sum(1));
+
+// Arrow function
+// const sum = function (a, b) {
+//     let result = `The sum of ${a} and ${b} is ${a+b}.`
+//     console.log(result); 
+// }
+// sum(12, 2);
+
+// Syntax
+// const functionName = function (Param1, Param2, ...) =>{
+//    // function body
+//     return result // Optional
+// };
+
+// fat arrow function
+// const sum = (a, b) =>{
+//     let result = `The sum of ${a} and ${b} is ${a+b}.`
+//     console.log(result); 
+// }
+// sum(12, 23);
+
+// const sum = (a, b) => console.log(`The sum of ${a} and ${b} is ${a+b}.`);
+// sum(12, 23);
+
+// const square = (a) => `The square of ${a} is ${a * a}`
+// console.log(square(5));
+
+// const calculater = (num1, num2, operator) =>{
+//     let result;
+//     switch(operator){
+//         case "+":
+//            result = num1 + num2;
+//             return result;
+
+//         case "-":
+//            result = num1 - num2;
+//             return result;
+
+//         case "*":
+//            result = num1 * num2;
+//             return result;
+
+//         case "/":
+//            result = num1 / num2;
+//             return result;
+
+//             default: return "no operator found";
+//     }
+// }
+
+// console.log(calculater(12, 4, "+"));
+
+let myarr = ["mango", "orang", "bnanna"];
+myarr[1] = "apple";
+console.log(myarr);
+

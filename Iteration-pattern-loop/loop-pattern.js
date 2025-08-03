@@ -211,21 +211,21 @@
 //   *
 // let n=3;
 
-let rows = 3;
+// let rows = 3;
 
-for (let i = 0; i < rows; i++) {
-  let line = '';
+// for (let i = 0; i < rows; i++) {
+//   let line = '';
 
-  for (let space = 0; space < i; space++) {
-    line += ' ';
-  }
+//   for (let space = 0; space < i; space++) {
+//     line += ' ';
+//   }
 
-  for (let star = 0; star < 2 * (rows - i) - 1; star++) {
-    line += '*';
-  }
+//   for (let star = 0; star < 2 * (rows - i) - 1; star++) {
+//     line += '*';
+//   }
 
-  console.log(line);
-}
+//   console.log(line);
+// }
 
 // 3. Continuous Number Triangle
 // 1
