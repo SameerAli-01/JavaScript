@@ -552,7 +552,98 @@
 
 // console.log(calculater(12, 4, "+"));
 
-let myarr = ["mango", "orang", "bnanna"];
-myarr[1] = "apple";
-console.log(myarr);
+// let myarr = ["mango", "orang", "bnanna"];
+// myarr[1] = "apple";
+// console.log(myarr);
 
+
+// let message = "hello";
+// message = 123456;
+// console.log(message);
+
+// let n = 123;
+// n = 12.345;
+// console.log(n);
+
+
+// let num = Number("123m");
+// console.log(typeof(num));
+
+// let num = Boolean(NaN);
+// console.log(num);
+// console.log(typeof(num));
+
+
+// let myObject = {
+//     firstName: "Sameer",
+//     lastName: "Ali",
+//     rollNumber: 23130499,
+//     age: 20,
+//     cgpa: 7.02,
+//     year: 2025
+// };
+
+// console.log(myObject[3]);
+
+
+// let myArr = ["Apple", "Orang", "Bnanna"];
+
+// for(let item in myArr){
+//     console.log(item);
+// }
+
+// for(let item = 0; item < myArr.length; item++){
+//     console.log(myArr[item]);
+// }
+
+// let myArr = ["Apple", "Orang", "Bnanna"];
+// myArr.forEach((currentValue, index, myArr) => {
+// console.log(`${currentValue} ${index}`);
+// })
+
+// let myArr = ["Apple", "Orang", "Bnanna"];
+// myArr.map((currentValue, index, myArr) => {
+// console.log(`${currentValue} ${index}`);
+// })
+
+
+// let i = 0;
+// while(i <= 2){
+//     console.log(i);
+//     i++;
+// }
+
+// let i2 = 0;
+// let num = 2;
+// do{
+//     console.log(i2);
+//     i2++;
+// }while(i2 <= num);
+
+// for(i3 = 0; i3 <= 2; i3++){
+//     console.log(i3);
+// }
+
+// console.log(a);
+// var a = 10;
+
+// console.log(a);
+// let a = 10;
+
+// var a;
+// var b = 10;
+// var b = 20;
+
+// let b = 10;
+// let b = 20;
+
+// console.log(a);
+// var a = 10;
+
+// let firstName = prompt("enter your name: ");
+
+// console.log(firstName);
+
+// let lastName = prompt("enter your name: ");
+
+// console.log(lastName);
