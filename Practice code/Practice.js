@@ -647,3 +647,109 @@
 // let lastName = prompt("enter your name: ");
 
 // console.log(lastName);
+
+// function great(Name, Age){
+//     console.log("my name is " + Name + " Ali" + "!", "I am " + Age + " year old");
+// }
+
+// great("Sameer", 20)
+
+// // Addition
+// function add1(){
+//     let a = 10;
+//     let b = 20;
+//     let c = a + b;
+//     console.log(c);
+// }
+// add1()
+
+// function add2(a, b){
+//     let c = a + b;
+//     console.log(c);
+// }
+// add2(12, 12)
+
+// // subtraction
+// function sub1(a, b){
+//     let c = a - b;
+//     console.log(c);
+// }
+// sub1(12, 14)
+
+// function sub2(a, b){
+//     let c = a - b;
+//     console.log(c);
+// }
+// sub2(12, 14)
+
+// function sub3(){
+//     let a = Number(prompt("Enter Your First Number: "));
+//     let b = Number(prompt("Enter Your Secound Number: "));
+//     let c = a - b;
+//     console.log(c);
+// }
+// sub3()
+
+
+// function area(a, b){
+//     let area = a * b;
+//     console.log(area);
+    
+// }
+// area(5, 3);
+
+// function rectangle(){
+//        let pi = 3.14;
+//        let area = pi * 
+// }
+
+// function temp(f){
+//     let c = (f - 32) * 5/9
+//     console.log(c);
+// }
+
+// let a = Number(prompt("Enter a temp number: "));
+// temp(a)
+
+// function mitFoot(f){
+//     let c = f * 3.28;
+//     console.log(c);
+// }
+// let a = Number(prompt('enter the meter'))
+// mitFoot(a)
+
+
+// function GanrateOtp(){
+//     let digits = "0123456789";
+//     let otp = " ";
+
+//     for(let i = 0; i < 4; i++){
+//         otp += digits [Math.floor (Math.random() * 10)]
+//     }
+//     return otp
+// }
+
+// console.log(GanrateOtp());
+
+// console.log(text);
+// var text = "sameer";
+
+// console.log(text);
+// let text = "sameer";
+
+// a = 4;
+// console.log(a);
+// var a;
+
+
+// hoisting()
+// function hoisting(){
+//     console.log("Ali");
+// }
+
+// function recursion(){
+//     console.log("Ali");
+//     recursion()
+// }
+// recursion()
+
