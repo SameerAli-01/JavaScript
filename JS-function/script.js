@@ -33,20 +33,24 @@ function findSquare(a){
 console.log(findSquare(2));
 
 // 6.  Write a function to  find the cube  of a number. 
+function findCube(number){
+    return number * number * number;
+}
+console.log(findCube(3));
 
 // 7.  Write a function that converts  Celsius to Fahrenheit.
 function celsiusFahrenheit(celsius){
     let c = (celsius * 9/5) + 32; 
     return c;
 }
-console.log(celsiusFahrenheit(45));
+console.log(celsiusFahrenheit(104));
 
 // 8.  Write a function that converts  Fahrenheit to Celsius.
 function fahrenheit(f2){
     let m = (f2 - 32) * 5/9
     return m;
 }
-console.log(fahrenheit(104));
+console.log(fahrenheit(89));
 
 // 9.  Write a function to calculate the  area of a rectangle.
 function areaofRectangle(length , width){
@@ -56,6 +60,10 @@ function areaofRectangle(length , width){
 console.log(areaofRectangle(4, 5));
 
 // 10.  Write a function to calculate the  perimeter of a square.
+function calculateSquare(square) {
+    return square * square;
+}
+console.log(calculateSquare(2));
 
 // Functions with Conditions 
 
@@ -68,7 +76,7 @@ function checkevenOdd(a){
         console.log("Even Number");
     }
 }
-checkevenOdd(2)
+checkevenOdd(10)
 
 // 12.  Write a function to check if a number is  positive, negative, or zero.
 function checkNum(num){
@@ -81,21 +89,57 @@ function checkNum(num){
         console.log("Number is zero")
     }
 }
-console.log(checkNum(-3));
+checkNum(0)
 
 // 13.  Write a function to return the  largest of two numbers. 
+function largestNum(num1, num2){
+    if(num1 > num2){
+        return num1;
+    } else{
+        return num2;
+}
+}
+console.log(largestNum(40, 30));
 
 // 14.  Write a function to return the  smallest of three numbers. 
+function smallestNum(num1, num2, num3) {
+  if (num1 <= num2 && num1 <= num3) {
+    return num1;
+  } else if (num2 <= num1 && num2 <= num3) {
+    return num2;
+  } else {
+    return num3;
+  }
+}
+console.log(smallestNum(45, 30, 50));
 
 // 15.  Write a function to check if a number is  prime or not. 
+function primeNum(num) {
+    if (num <= 1) {
+        console.log("note a prime number");
+        return;
+    }
+    for (let i = 2; i < num; i++) {
+        if (num % i == 0) {
+            return false
+        } else{
+            return true;
+        }
+    }
+}
+console.log(primeNum(10));
 
 // 16.  Write a function to check if a number is a  multiple of 5. 
+function multipleofFive(num) {
+        return num % 5 === 0
+}
+console.log(multipleofFive(22));
 
 // 17.  Write a function to check if a year is a  leap year.
 function leapYear(year){
     return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
 } 
-console.log(leapYear(2023))
+console.log(leapYear(2024));
 
 // 18.  Write a function to check if a character is a  vowel or consonant.
 
@@ -138,11 +182,39 @@ studentGrade("B")
 
 // 24.  Write a function to print the  multiplication table  of a number. 
 
-// 25.  Write a function to print all  even numbers up to N. 
+// 25.  Write a function to print all  even numbers up to N.
+function evenallNum(N) {
+    for(let i = 1; i <= N; i++){
+        if(i % 2 === 0){
+            console.log(i);
+        }
+    }
+} 
+evenallNum(6)
 
 // 26.  Write a function to print all  odd numbers up to N. 
+function evenallNum(N) {
+    for(let i = 1; i <= N; i++){
+        if(i % 2 !== 0){
+            console.log(i);
+        }
+    }
+} 
+evenallNum(6)
 
-// 27.  Write a function to find the  reverse of a number. 
+// 27.  Write a function to find the  reverse of a number.
+function reverse(num) {
+    
+    let numStr = num.toString();
+    let reverseNum = " "
+    for(let i = numStr.length-1; i >= 0; i--){
+        reverseNum = reverseNum + numStr[i];
+    }
+    return parseInt(reverseNum);
+} 
+let num = 234
+let rev = reverse(num);
+console.log(rev);
 
 // 28.  Write a function to count the  number of digits  in a number. 
 
