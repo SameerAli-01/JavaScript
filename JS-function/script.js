@@ -171,6 +171,22 @@
 // studentGrade("B")
 
 // 20.  Write a function to check if a given string is a  palindrome.
+// function isPalindrome(n) {
+//     let reverse = 0;
+//     let temp = Math.abs(n);
+//     while (temp != 0) {
+//         reverse = (reverse * 10 + (temp % 10))
+//         temp = Math.floor(temp % 10)
+        
+//     }
+//     return (reverse == Math.abs(n))
+// }
+// let n = 12321;
+// if(isPalindrome(n)==true){
+//     console.log("true");
+// } else{
+//     console.log("false");
+// }
 
 // Loops inside Functions 
 
@@ -249,23 +265,6 @@
 
 
 
-function isPalindrome(n) {
-    let reverse = 0;
-    let temp = Math.abs(n);
 
-    while (temp != 0) {
-        reverse = (reverse * 10 + (temp % 10))
-        temp = Math.floor(temp % 10)
-        
-    }
 
-    return (reverse == Math.abs(n))
-    
-}
 
-let n = 12321;
-if(isPalindrome(n)==true){
-    console.log("true");
-} else{
-    console.log("false");
-}
