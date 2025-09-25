@@ -753,3 +753,167 @@
 // }
 // recursion()
 
+/*
+let age = prompt("Enter your age under to 10 and 20");
+
+if(age > 10 && age < 20){
+    console.log("your age is under to 10 and 20");
+} else{
+    console.log("your age is note under to 10 and 20");
+}
+
+let age = Number(prompt("what is your age"));
+
+switch(age){
+    case 12: 
+    console.log("your age is 12");
+    break;
+
+    case 13: 
+    console.log("your age is 13");
+    break;
+
+    case 14: 
+    console.log("your age is 14");
+    break;
+
+    case 15: 
+    console.log("your age is 15");
+    break;
+
+    default:
+        console.log("your age is not special");
+} 
+
+
+let num = Number(prompt("what is your age"));
+
+if(num % 2 == 0 && num % 3 == 0){
+    console.log("your number is divisible by 2 and 3");
+} else{
+    console.log("your number is note divisible by 2 and 3");
+}
+
+let age = 20;
+let message = (age >= 18) ? "You can drive" : "You can note drive";
+console.log(message);
+*/ 
+
+/*
+// for loop
+for(let i = 1; i <= 10; i++){
+    console.log("number print", i);
+}
+
+// for in loop
+let obj = {
+    Sameer: 90,
+    Sohil: 40,
+    Ankit: 50,
+    Sahil: 60
+}
+
+for(let a in obj){
+    console.log("Marks of " + a + " are " + obj[a] );
+}
+
+// for of loop
+for(let b of "Sameer"){
+    console.log(b);
+}
+
+let n = Number(prompt("Enter the value of n"));
+n = Number.parseInt(n);
+
+let i = 0;
+while(i < n){
+   console.log(i);
+    i++;
+}
+
+// loop and function practice set
+let marks = {
+    Sameer: 70,
+    Ankit: 60,
+    Rahul: 65,
+}
+
+for(let i = 0; i < Object.keys(marks).length; i++){
+    console.log("The marks of " + Object.keys(marks)[i] + " are " + marks[Object.keys(marks)[i]]);
+}
+
+for(let i in marks ){
+    console.log("The marks of " + i + " are " + marks[i]);
+}
+
+let cd = 40;
+let i;
+while(i != cd){
+    i = prompt("Enter a number")
+    console.log("try again");
+}
+console.log("you have entered a correct number");
+
+const main = (a, b , c, d) => {
+    return (a + b + c +d) / 4
+}
+console.log(main(4, 5, 6, 7));
+*/
+
+/*
+let name = "Sameer";
+console.log(name);
+console.log(name[0]);
+console.log(name[1]);
+console.log(name.toUpperCase());
+console.log(name.length);
+
+let friend = 'Ankit';
+console.log(friend);
+console.log(friend.length);
+
+let myFriend = "Puneet'  error
+console.log(myFriend);
+
+let boy1 = "Sameer Ali";
+let boy2 = 'Ankit Kumar';
+let boys = `Boy one ${boy1} and Boy two ${boy2}`;
+console.log(boys);
+
+let fruit = 'Bana\'na';
+console.log(fruit);
+console.log(fruit.length);
+
+let fruit2 = "oran\r ge";
+console.log(fruit2);
+
+let product = "Phone"
+console.log(product[1]);
+
+console.log(product.slice(1,3));
+
+console.log(product.replace("Phone", "Laptop"));
+console.log(product);
+
+let price = "1234567";
+
+for(let i = 0; i <= price.length; i++){
+    console.log(i);
+}
+*/
+
+// string practice set
+/*
+console.log("hel\"".length);
+
+let clgName = "IFTM";
+console.log(clgName.toLowerCase());
+
+let str = "Please give Rs 1000";
+let amount = Number.parseInt(str.slice("Please give Rs".length));
+console.log(amount);
+console.log(typeof(amount));
+
+let friend = "Deepika";
+console.log(friend.replace("p", "s"));
+*/
