@@ -917,3 +917,28 @@ console.log(typeof(amount));
 let friend = "Deepika";
 console.log(friend.replace("p", "s"));
 */
+
+// Array Chapter
+/*
+let Array = [1, 2, 3, 4, 5];
+console.log(Array);
+console.log(Array[0]);
+console.log(Array[1]);
+console.log(Array[2]);
+console.log(Array[3]);
+console.log(Array[4]);
+console.log(Array[5]);
+
+console.log("Array length is", Array.length);
+Array[0] = 1 //changing the value of an array
+Array[6] = 7 //adding a value to the array
+console.log(Array);
+console.log(typeof Array);
+
+let Array2 = ["Ali", 2, undefined, 4, 5];
+
+for(let i = 1; i <= Array2.length; i++){
+    console.log(i);
+}
+ */
+
