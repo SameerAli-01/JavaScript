@@ -942,3 +942,41 @@ for(let i = 1; i <= Array2.length; i++){
 }
  */
 
+// Array Method
+// let num = [13, 14, 15, 16, 17];
+// console.log(num.toString());
+// console.log(num.join("-"));
+// console.log(num.pop());
+// console.log(num.push());
+// console.log(num);
+// console.log(num.push(12));
+// console.log(num);
+// console.log(num.pop());
+// console.log(num);
+// console.log(delete[0]);
+// console.log(num);
+
+// let num2 = [112, 134, 240];
+// let newArray = num.concat(num2);
+// console.log(newArray);
+// console.log(typeof newArray);
+
+// splice and slice
+// let array = [1, 2, 3, 4, 5];
+  
+// console.log(array.splice(1, 2, 123, 1234));
+// console.log(array);
+// console.log(array.slice(3));
+// console.log(array);
+
+// loop with array
+
+// let myArray = [3, 5, 1, 2, 4];
+
+// for(let i = 0; i < myArray.length; i++){
+//     console.log(myArray[i]);
+// }
+
+// myArray.forEach((element) =>{
+//     console.log(element * element);
+// })
