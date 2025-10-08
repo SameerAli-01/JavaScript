@@ -980,3 +980,36 @@ for(let i = 1; i <= Array2.length; i++){
 // myArray.forEach((element) =>{
 //     console.log(element * element);
 // })
+
+// push pop shift unshift > slice splice sort 
+// itrates 
+// map filter reduse
+
+// let spliceArr = ["Apple", "Orange", "Mango", "Bnanna",]
+
+// let change = spliceArr.splice(1, 2, "Arjun", "Sameer", "Faizan", "Ankit", "Sahil");
+// console.log("My Array: ",change);
+// console.log(spliceArr);
+
+// let sliceArr = ["A", "B", "C", "D", "E", "F"]
+
+//  let newArr = sliceArr.slice(2, 4)
+
+// console.log(newArr);
+
+
+// let mapMethod = [1, 2, 3, 4, 5]
+
+// mapMethod.map((value, index, array) =>{
+//     console.log(`my value ${value} * ${value}` , value * value, "array index ", index)
+// }
+// )
+
+// let age = [13, 12, 17, 19, 20, 12, 22]
+
+// let elg = age.filter(age => age > 18)
+// console.log(elg)
+
+let reduseMethod = [1, 2, 3, 4, 5, 6]
+let sum = reduseMethod.reduce((acc, value) => acc + value, 0)
+console.log(sum);
