@@ -1010,6 +1010,29 @@ for(let i = 1; i <= Array2.length; i++){
 // let elg = age.filter(age => age > 18)
 // console.log(elg)
 
-let reduseMethod = [1, 2, 3, 4, 5, 6]
-let sum = reduseMethod.reduce((acc, value) => acc + value, 0)
-console.log(sum);
+// let reduseMethod = [1, 2, 3, 4, 5, 6]
+// let sum = reduseMethod.reduce((acc, value) => acc + value, 0)
+// console.log(sum);
+
+// getter and setter
+
+// let student = {
+//     name: "Sameer",
+//     get getName(){
+//         return this.name
+//     }
+// }
+// console.log(student.name);
+// console.log(student.getName);
+// // console.log(student.getName()); //error
+
+// let student2 = {
+//     name: "Ali",
+//     set changeName(name){
+//         return this.name=name
+//     }
+// }
+
+// console.log(student2.name);
+// student2.changeName="Ali2"
+// console.log(student2.name);
